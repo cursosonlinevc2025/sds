@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal e Serviços | Atendimento e Soluções Profissionais</title>
+  <meta name="description" content="Atendimento ao cliente e soluções profissionais — Personal e Serviços.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+    body { font-family: 'Inter', sans-serif; background: #f8fafc; color: #1e293b; }
+    .animate-pulse { animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+    @keyframes pulse { 0%,100%{opacity:1;} 50%{opacity:.5;} }
+    footer { background: #0f172a; color: #cbd5e1; text-align: center; padding: 20px; font-size: 0.95em; margin-top: 50px; }
+    footer a { color: #93c5fd; text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+    #privacidade { display:none; max-width:900px; margin:40px auto; background:#fff; padding:30px; border-radius:10px; box-shadow:0 2px 10px rgba(0,0,0,0.05); text-align:left; }
+    #privacidade h2 { text-align:center; margin-bottom:20px; color:#0f172a; }
+    #privacidade p { margin-bottom:15px; color:#334155; }
+    #voltar { display:block; text-align:center; margin-top:20px; }
+  </style>
+</head>
+<body>
+
+  <!-- 🔹 PARTE 1 - ATENDIMENTO AO CLIENTE -->
+  <div id="home-page" class="min-h-screen bg-gradient-to-br from-pink-50 via-white to-pink-100 flex items-center justify-center p-4 relative">
+    <div class="bg-white rounded-3xl shadow-2xl p-8 md:p-12 max-w-lg mx-auto text-center relative z-10 min-h-[600px] flex flex-col justify-center border border-pink-100">
+      <div class="flex items-center justify-center mb-6">
+        <svg class="w-6 h-6 text-pink-600 mr-3" fill="currentColor" viewBox="0 0 20 20">
+          <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
+        </svg>
+        <span class="text-gray-700 text-base font-medium">Atendimento Online</span>
+      </div>
+
+      <h1 class="text-3xl md:text-4xl font-bold bg-gradient-to-r from-pink-700 to-rose-700 bg-clip-text text-transparent mb-10 leading-tight">
+        Como podemos ajudar você hoje?
+      </h1>
+
+      <div class="mb-8">
+        <img src="https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=400"
+          alt="Atendente"
+          class="w-48 h-48 mx-auto object-cover rounded-full shadow-xl ring-4 ring-pink-100" />
+      </div>
+
+      <p class="text-gray-600 mb-10 text-base leading-relaxed">
+        Preencha o formulário abaixo e entraremos em contato com você o mais breve possível.
+      </p>
+
+      <div class="space-y-5 mb-8">
+        <a href="https://feiraodeoutubro2025.github.io/k2025" 
+          class="w-full bg-gradient-to-r from-pink-600 to-rose-600 hover:from-pink-700 hover:to-rose-700 text-white font-semibold py-5 px-10 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl text-lg">
+          Iniciar Atendimento
+        </a>
+      </div>
+
+      <div class="text-sm text-gray-500">
+        <a href="#" id="abrirPriv1" class="hover:text-pink-600 transition-colors">Política de Privacidade</a>
+        <span class="mx-2">|</span>
+        <a href="#" class="hover:text-pink-600 transition-colors">Termos de Uso</a>
+      </div>
+    </div>
+
+    <div class="absolute inset-0 overflow-hidden pointer-events-none">
+      <div class="absolute top-20 left-10 w-20 h-20 bg-pink-200 rounded-full opacity-40 animate-pulse"></div>
+      <div class="absolute bottom-20 right-10 w-16 h-16 bg-rose-200 rounded-full opacity-30 animate-pulse" style="animation-delay: 700ms;"></div>
+      <div class="absolute top-1/2 left-5 w-12 h-12 bg-pink-200 rounded-full opacity-35 animate-pulse" style="animation-delay: 1000ms;"></div>
+    </div>
+  </div>
+
+  <!-- 🔹 ESPAÇO ENTRE AS SEÇÕES -->
+  <div style="height:80px;"></div>
+
+  <!-- 🔹 PARTE 2 - SITE PERSONAL E SERVIÇOS -->
+  <header style="background:#0f172a;color:#fff;padding:25px 0;text-align:center;font-size:1.6em;font-weight:bold;">
+    Personal e Serviços
+  </header>
+
+  <section id="home" style="text-align:center;padding:60px 20px;">
+    <h2 style="font-size:1.8em;margin-bottom:15px;">Profissionalismo e confiança para o seu negócio</h2>
+    <p style="max-width:700px;margin:0 auto 30px;font-size:1.1em;color:#475569;">
+      A <strong>Personal e Serviços</strong> é uma empresa especializada em soluções administrativas,
+      consultoria e suporte empresarial, ajudando micro e pequenas empresas a crescer de forma segura e eficiente.
+    </p>
+    <a href="https://www.personaleservicos.fun" 
+       style="background:#2563eb;color:#fff;padding:14px 32px;border-radius:8px;text-decoration:none;font-size:1.1em;">
+      Acessar agora
+    </a>
+  </section>
+
+  <section id="privacidade">
+    <h2>Política de Privacidade</h2>
+    <p>
+      A <strong>Personal e Serviços</strong> respeita a sua privacidade e está comprometida em proteger
+      todas as informações pessoais que possam ser coletadas em nosso site <strong>www.personaleservicos.fun</strong>.
+    </p>
+    <p>
+      As informações fornecidas por meio de formulários, contatos ou navegação são utilizadas apenas para
+      fins administrativos e de comunicação, e não são compartilhadas com terceiros sem autorização prévia.
+    </p>
+    <p>
+      O usuário tem o direito de solicitar a exclusão de seus dados a qualquer momento,
+      conforme previsto na Lei Geral de Proteção de Dados (Lei nº 13.709/2018).
+    </p>
+    <p>
+      Ao utilizar nosso site, você concorda com os termos desta política de privacidade.
+      Caso tenha dúvidas, entre em contato pelo e-mail
+      <a href="mailto:contato@personaleservicos.fun">contato@personaleservicos.fun</a>.
+    </p>
+    <a href="#" id="voltar" class="btn">Voltar ao site</a>
+  </section>
+
+  <footer>
+    © 2025 Personal e Serviços • CNPJ: 50.309.515/0001-46<br>
+    <a href="#" id="abrirPriv2">Política de Privacidade</a> • 
+    <a href="mailto:contato@personaleservicos.fun">contato@personaleservicos.fun</a>
+  </footer>
+
+  <script>
+    // Mostrar/esconder política
+    const priv = document.getElementById('privacidade');
+    const home = document.getElementById('home');
+    const voltar = document.getElementById('voltar');
+    const abrirPriv1 = document.getElementById('abrirPriv1');
+    const abrirPriv2 = document.getElementById('abrirPriv2');
+
+    [abrirPriv1, abrirPriv2].forEach(link=>{
+      link.addEventListener('click',e=>{
+        e.preventDefault();
+        home.style.display='none';
+        priv.style.display='block';
+        window.scrollTo(0,0);
+      });
+    });
+
+    voltar.addEventListener('click',e=>{
+      e.preventDefault();
+      priv.style.display='none';
+      home.style.display='block';
+      window.scrollTo(0,0);
+    });
+  </script>
+
+</body>
+</html>
